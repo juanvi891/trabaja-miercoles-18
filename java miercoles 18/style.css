@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 
+    border-box;
+}
+/* Las etiquetas se invocan por su nombre */
+p{
+    color: #2102ab;
+}
+
+div{
+    border: 8px solid #0f859d;
+}
+
+/* Las clases afectan a los elementos que contengan la misma clase */
+
+.clase-caja{
+    border: 8px solid #e8ac09;
+    background-color: #07bbdf;
+}
+
+.clase-parrafo{
+    color: #ffffff;
+}
+
+/* Los IDs afectan a elementos específicos por su ID */
+#fotografia{
+    border: 8px solid #179e8c;
+    width: 700px;
+    height: 700px;
+}
+
+#camara{
+    border: 8px solid #34179e;
+    width: 700px;
+    height: 700px;
+}
+
+#klk{
+    border: 8px solid #9e1734;
+    width: 700px;
+    height: 700px;
+}
